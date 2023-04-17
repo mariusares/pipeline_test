@@ -1,4 +1,3 @@
-import os
 List1 = [4, 7, 9, 5, 2]
 List1.reverse()
 print ("The reversed list is", List1)
