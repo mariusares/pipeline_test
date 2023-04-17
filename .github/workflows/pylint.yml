@@ -20,4 +20,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-       pylint --disable=E0401 --variable-rgx="[a-z0-9_]{1,30}$" 
+       pylint --disable=E0401 --variable-rgx="[a-z0-9_]{1,30}$"  *.py
